@@ -1,0 +1,21 @@
+{
+  "name": "jsontots",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "json-to-ts": "^1.7.0",
+    "monaco-editor": "^0.25.2",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.5",
+    "@vue/compiler-sfc": "^3.1.4",
+    "typescript": "^4.3.5",
+    "vite": "^2.4.2",
+    "vue-tsc": "^0.0.26"
+  }
+}
